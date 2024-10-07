@@ -1,0 +1,44 @@
+form {
+    text-align: center;
+    display: inline-grid;
+    background-color: rgb(58, 124, 168);
+    margin: inherit;
+    font-weight: 612;
+    width: 50%;
+    margin-left: 345px;
+    margin-right: 345px;
+    border: 2px solid;
+}
+
+h1 {
+    text-align: center;
+    display: inline-grid;
+    background-color: rgb(58, 124, 168);
+    margin: inherit;
+    margin-right: inherit;
+    margin-left: inherit;
+    font-weight: 612;
+    width: 50%;
+    margin-left: 345px;
+    margin-right: 345px;
+    padding-bottom: 30px;
+    border: 2px solid;
+}
+
+input {
+    background-color: rgb(252, 252, 252);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.boton {
+    background-color: rgb(240, 240, 240);
+    border: 2px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+  }
+.boton:hover{
+    background-color: #61f705;
+}
+

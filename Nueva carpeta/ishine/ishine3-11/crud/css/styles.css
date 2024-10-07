@@ -1,0 +1,61 @@
+
+.tabla{
+    height: auto;
+    width: auto;
+    display: inline-grid;
+    background: #dfdfdf;
+    border: 2px solid #000000;
+    padding:10px;
+    margin-top:5px;
+    font-size: 18px;
+    color: #000000;
+    position: absolute;
+    top: 30px;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:27px;
+    background:#d8d8d8;
+    border:1px solid #000000;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#000000;
+}
+
+::placeholder{
+    color: #000000;
+    text-align: center;
+}
+ 
+textarea {
+    height:150px;
+}
+ 
+.operacion {
+    width:auto;
+    height:35px;
+    border:1px solid#000000;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+.enviar {
+    width:auto;
+    height:35px;
+    border:1px solid#000000;
+    margin-top:20px;
+    cursor:pointer;
+}
